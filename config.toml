@@ -136,7 +136,7 @@ copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Ri
 # main menu
 [[Languages.en.menu.main]]
 name = "Home"
-URL = "/fr"
+URL = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
@@ -299,3 +299,96 @@ weight = 5
 name = "Contact"
 URL = "contact"
 weight = 6
+
+
+################################ ChineseTaiwan Language ########################
+[Languages.zh-tw]
+languageName = "zh-tw"
+languageCode = "en-us"
+contentDir = "content/ChineseTaiwan"
+weight = 3
+# copyright
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+
+
+######################### ChineseTaiwan navigation #############################
+# main menu
+[[Languages.zh-tw.menu.main]]
+name = "Home"
+URL = "/"
+weight = 1
+
+[[Languages.zh-tw.menu.main]]
+name = "About"
+URL = "about"
+weight = 2
+
+[[Languages.zh-tw.menu.main]]
+name = "Project"
+URL = "project"
+weight = 3
+
+[[Languages.zh-tw.menu.main]]
+name = "Service"
+URL = "service"
+weight = 4
+
+[[Languages.zh-tw.menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 5
+
+[[Languages.zh-tw.menu.main]]
+weight = 6
+name = "Pages"
+hasChildren = true
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "Pages"
+  name = "FAQ"
+  URL = "faq"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "Pages"
+  name = "Pricing"
+  URL = "pricing"
+  
+[[Languages.zh-tw.menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 7
+
+
+# footer menu
+[[Languages.zh-tw.menu.footer]]
+name = "About"
+URL = "about"
+weight = 1
+
+[[Languages.zh-tw.menu.footer]]
+name = "Project"
+URL = "project"
+weight = 2
+
+[[Languages.zh-tw.menu.footer]]
+name = "Service"
+URL = "service"
+weight = 3
+
+[[Languages.zh-tw.menu.footer]]
+name = "Pricing"
+URL = "pricing"
+weight = 4
+
+[[Languages.zh-tw.menu.footer]]
+name = "FAQ"
+URL = "faq"
+weight = 5
+
+[[Languages.zh-tw.menu.footer]]
+name = "Contact"
+URL = "contact"
+weight = 6
+
+
+
