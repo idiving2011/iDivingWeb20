@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "http://examplesite.org"
-title = "Airspace | Creative Agency Hugo Template"
+#baseURL = "http://examplesite.org"
+title = "iDiving"
 theme = "airspace-hugo"
 # post pagination
 paginate = "4"
@@ -8,8 +8,11 @@ paginate = "4"
 summaryLength = "30"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
+defaultContentLanguage = "zh-tw" #默認中文語言
+defaultContentLanguageInSubdir = true #不使用多語言請直接設定false
+hasCJKLanguage = true #不使用多語言請直接設定false
 # disable language
-disableLanguages = ["fr"]
+disableLanguages = ["fr", "en"]
 
 ################################# Outputs #################################
 # hugo outputs
