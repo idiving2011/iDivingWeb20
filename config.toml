@@ -9,7 +9,7 @@ summaryLength = "30"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = []
+disableLanguages = ["fr"]
 
 ################################# Outputs #################################
 # hugo outputs
