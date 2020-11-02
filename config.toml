@@ -307,7 +307,7 @@ weight = 6
 ################################ ChineseTaiwan Language ########################
 [Languages.zh-tw]
 languageName = "zh-tw"
-languageCode = "en-us"
+languageCode = "zh-tw"
 contentDir = "content/ChineseTaiwan"
 weight = 3
 # copyright
@@ -318,48 +318,197 @@ copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Ri
 # main menu
 [[Languages.zh-tw.menu.main]]
 name = "Home"
-URL = "/"
+URL = "../"
 weight = 1
 
 [[Languages.zh-tw.menu.main]]
-name = "About"
-URL = "about"
 weight = 2
-
-[[Languages.zh-tw.menu.main]]
-name = "Project"
-URL = "project"
-weight = 3
-
-[[Languages.zh-tw.menu.main]]
-name = "Service"
-URL = "service"
-weight = 4
-
-[[Languages.zh-tw.menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 5
-
-[[Languages.zh-tw.menu.main]]
-weight = 6
-name = "Pages"
+name = "學潛水"
 hasChildren = true
 
   [[Languages.zh-tw.menu.main]]
-  parent = "Pages"
-  name = "FAQ"
-  URL = "faq"
+  parent = "學潛水"
+  name = "01自由潛水初階課程"
+  URL = "../"
 
   [[Languages.zh-tw.menu.main]]
-  parent = "Pages"
-  name = "Pricing"
-  URL = "pricing"
-  
+  parent = "學潛水"
+  name = "02自由潛水專長課程"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "學潛水"
+  name = "03自由潛水領導級"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "學潛水"
+  name = "04美人魚課程"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "學潛水"
+  name = "05水肺初階課程"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "學潛水"
+  name = "06水肺初階課程"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "學潛水"
+  name = "07水肺專長課程"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "學潛水"
+  name = "08水肺領導級"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "學潛水"
+  name = "09技術潛水課程"
+  URL = "../"
+
 [[Languages.zh-tw.menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 7
+weight = 3
+name = "玩潛水"
+hasChildren = true
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "玩潛水"
+  name = "01水肺東北角活動"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "玩潛水"
+  name = "02水肺國內/國外活動"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "玩潛水"
+  name = "03自潛東北角活動"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "玩潛水"
+  name = "04自潛墾丁離島/活動"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "玩潛水"
+  name = "05水肺俱樂部"
+  URL = "../"
+
+[[Languages.zh-tw.menu.main]]
+weight = 4
+name = "愛潛水"
+hasChildren = true
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "愛潛水"
+  name = "01iDiving 介紹"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "愛潛水"
+  name = "02環保里程碑"
+  URL = "../"
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "愛潛水"
+  name = "03推薦裝備"
+  URL = "../"
+
+
+[[Languages.zh-tw.menu.main]]
+weight = 5
+name = "潛水"
+hasChildren = true
+
+  [[Languages.zh-tw.menu.main]]
+  parent = "潛水"
+  name = "About"
+  URL = "../about"
+  
+  [[Languages.zh-tw.menu.main]]
+  parent = "潛水"
+  name = "project"
+  URL = "../project"
+  
+  [[Languages.zh-tw.menu.main]]
+  parent = "潛水"
+  name = "service"
+  URL = "../service"
+  
+  [[Languages.zh-tw.menu.main]]
+  parent = "潛水"
+  name = "blog"
+  URL = "../blog"
+  
+  [[Languages.zh-tw.menu.main]]
+  parent = "潛水"
+  name = "faq"
+  URL = "../faq"
+  
+  [[Languages.zh-tw.menu.main]]
+  parent = "潛水"
+  name = "pricing"
+  URL = "../pricing"
+  
+  [[Languages.zh-tw.menu.main]]
+  parent = "潛水"
+  name = "contact"
+  URL = "../contact"
+
+
+
+# main menu
+#[[Languages.zh-tw.menu.main]]
+#name = "Home"
+#URL = "/zh-tw"
+#weight = 1
+
+#[[Languages.zh-tw.menu.main]]
+#name = "About"
+#URL = "about"
+#weight = 2
+
+#[[Languages.zh-tw.menu.main]]
+#name = "Project"
+#URL = "project"
+#weight = 3
+
+#[[Languages.zh-tw.menu.main]]
+#name = "Service"
+#URL = "service"
+#weight = 4
+
+#[[Languages.zh-tw.menu.main]]
+#name = "Blog"
+#URL = "blog"
+#weight = 5
+
+#[[Languages.zh-tw.menu.main]]
+#weight = 6
+#name = "Pages"
+#hasChildren = true
+
+#  [[Languages.zh-tw.menu.main]]
+#  parent = "Pages"
+#  name = "FAQ"
+#  URL = "faq"
+
+#  [[Languages.zh-tw.menu.main]]
+#  parent = "Pages"
+#  name = "Pricing"
+#  URL = "pricing"
+  
+#[[Languages.zh-tw.menu.main]]
+#name = "Contact"
+#URL = "contact"
+#weight = 7
 
 
 # footer menu
