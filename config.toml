@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-#baseURL = "http://examplesite.org"
+baseURL = "http://idiving2011.github.io"
 title = "iDiving"
 theme = "airspace-hugo"
 # post pagination
