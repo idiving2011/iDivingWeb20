@@ -25,6 +25,13 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: exampleSite/content/ChineseTaiwan/blog
+  label: Post (zh-tw)
+  create: documents
+  match: "**/*"
+  templates:
+  - post
 - type: heading
   label: Author
 - type: directory
@@ -37,6 +44,13 @@ sections:
 - type: directory
   path: exampleSite/content/french/author
   label: Author (fr)
+  create: documents
+  match: "**/*"
+  templates:
+  - author
+- type: directory
+  path: exampleSite/content/ChineseTaiwan/author
+  label: Author (zh-tw)
   create: documents
   match: "**/*"
   templates:
@@ -57,6 +71,13 @@ sections:
   match: "**/*"
   templates:
   - project
+- type: directory
+  path: exampleSite/content/ChineseTaiwan/project
+  label: Project (zh-tw)
+  create: documents
+  match: "**/*"
+  templates:
+  - project
 - type: heading
   label: Others Pages
 - type: directory
@@ -70,6 +91,11 @@ sections:
   create: none
   match: "*"
 - type: directory
+  path: exampleSite/content/ChineseTaiwan/about
+  label: About (zh-tw)
+  create: none
+  match: "*"
+- type: directory
   path: exampleSite/content/english/service
   label: Service (en)
   create: none
@@ -77,6 +103,11 @@ sections:
 - type: directory
   path: exampleSite/content/french/service
   label: Service (fr)
+  create: none
+  match: "*"
+- type: directory
+  path: exampleSite/content/ChineseTaiwan/service
+  label: Service (zh-tw)
   create: none
   match: "*"
 - type: directory
@@ -90,6 +121,11 @@ sections:
   create: none
   match: "*"
 - type: directory
+  path: exampleSite/content/ChineseTaiwan/pricing
+  label: Pricing (zh-tw)
+  create: none
+  match: "*"
+- type: directory
   path: exampleSite/content/english/faq
   label: FAQ (en)
   create: none
@@ -97,6 +133,11 @@ sections:
 - type: directory
   path: exampleSite/content/french/faq
   label: FAQ (fr)
+  create: none
+  match: "*"
+- type: directory
+  path: exampleSite/content/ChineseTaiwan/faq
+  label: FAQ (zh-tw)
   create: none
   match: "*"
 - type: directory
@@ -110,6 +151,11 @@ sections:
   create: none
   match: "*"
 - type: directory
+  path: exampleSite/content/ChineseTaiwan/contact
+  label: Contact (zh-tw)
+  create: none
+  match: "*"
+- type: directory
   path: exampleSite/content/english/pages
   label: Created Pages (en)
   create: documents
@@ -119,6 +165,13 @@ sections:
 - type: directory
   path: exampleSite/content/french/pages
   label: Created Pages (fr)
+  create: all
+  match: "**/*"
+  templates:
+  - new-page
+- type: directory
+  path: exampleSite/content/ChineseTaiwan/pages
+  label: Created Pages (zh-tw)
   create: all
   match: "**/*"
   templates:
@@ -137,6 +190,13 @@ sections:
   match: "**/*"
   templates:
   - new-page
+- type: directory
+  path: exampleSite/ChineseTaiwan/french
+  label: All Pages (zh-tw)
+  create: all
+  match: "**/*"
+  templates:
+  - new-page
 - type: heading
   label: Data
 - type: directory
@@ -147,6 +207,11 @@ sections:
 - type: directory
   path: exampleSite/data/fr
   label: Data (fr)
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/data/zh-tw
+  label: Data (zh-tw)
   create: all
   match: "**/*"
 - type: directory
