@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: learndive
+- type: directory
+  path: exampleSite/content/ChineseTaiwan/learndive/owdcourse
+  label: OWDCourse
+  create: all
+  match: "**/*"
 - type: heading
   label: Blog Post
 - type: directory
