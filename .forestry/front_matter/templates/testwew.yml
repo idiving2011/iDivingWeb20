@@ -8,5 +8,15 @@ fields:
     required: false
   label: Open Water Diver 開放水域潛水員課程 假日班
   description: sdfsdsdfsdf
+- name: open_water_diver______________
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Open Water Diver 開放水域潛水員課程 假日班 area
+  description: sdasdasdada
 pages:
 - exampleSite/content/ChineseTaiwan/learndive/owdcourse/test direc/test01.md
