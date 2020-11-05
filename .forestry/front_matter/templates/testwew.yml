@@ -1,4 +1,9 @@
 ---
 label: testwew
 hide_body: true
-fields: []
+fields:
+- name: open_water_diver
+  type: text
+  config:
+    required: false
+  label: Open Water Diver 開放水域潛水員課程
