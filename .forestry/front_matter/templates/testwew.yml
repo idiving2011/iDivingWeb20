@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Open Water Diver 開放水域潛水員課程
+pages:
+- exampleSite/content/ChineseTaiwan/learndive/owdcourse/test direc/test01.md
