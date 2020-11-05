@@ -2,10 +2,11 @@
 label: testwew
 hide_body: true
 fields:
-- name: open_water_diver
+- name: open_water_diver_holiday
   type: text
   config:
     required: false
-  label: Open Water Diver 開放水域潛水員課程
+  label: Open Water Diver 開放水域潛水員課程 假日班
+  description: sdfsdsdfsdf
 pages:
 - exampleSite/content/ChineseTaiwan/learndive/owdcourse/test direc/test01.md
