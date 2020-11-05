@@ -74,7 +74,7 @@ sections:
   templates:
   - project
 - type: heading
-  label: Others Pages
+  label: about
 - type: directory
   path: exampleSite/content/english/about
   label: About (en)
@@ -90,6 +90,8 @@ sections:
   label: About (zh-tw)
   create: none
   match: "*"
+- type: heading
+  label: Service
 - type: directory
   path: exampleSite/content/english/service
   label: Service (en)
@@ -105,6 +107,8 @@ sections:
   label: Service (zh-tw)
   create: none
   match: "*"
+- type: heading
+  label: 'Pricing '
 - type: directory
   path: exampleSite/content/english/pricing
   label: Pricing (en)
@@ -120,6 +124,8 @@ sections:
   label: Pricing (zh-tw)
   create: none
   match: "*"
+- type: heading
+  label: FAQ
 - type: directory
   path: exampleSite/content/english/faq
   label: FAQ (en)
@@ -135,6 +141,8 @@ sections:
   label: FAQ (zh-tw)
   create: none
   match: "*"
+- type: heading
+  label: 'Contact '
 - type: directory
   path: exampleSite/content/english/contact
   label: Contact (en)
@@ -150,6 +158,8 @@ sections:
   label: Contact (zh-tw)
   create: none
   match: "*"
+- type: heading
+  label: Others Pages
 - type: directory
   path: exampleSite/content/english/pages
   label: Created Pages (en)
